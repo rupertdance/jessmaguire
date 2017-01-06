@@ -23,7 +23,10 @@
 }
 
 .cbp-rfgrid li a img {
-	max-width: 100%;
+    max-width: 100%;
+    max-height: 356px;
+    overflow: hidden;
+    object-fit: cover;
 }
 
 /* Flexbox is used for centering the heading */
